@@ -94,7 +94,7 @@ export default function App() {
   const education = [
     {
       degree: 'Bachelor of Engineering',
-      college: 'K N S Institute of Technology',
+      school: 'K N S Institute of Technology',
       period: '2022 - 2026',
       details: 'Focus on learning programming languages, software development, and problem-solving skills. Participated in coding competitions and hackathons.'
     },
