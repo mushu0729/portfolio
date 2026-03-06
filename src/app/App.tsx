@@ -196,6 +196,7 @@ export default function App() {
 
             {/* Social Icons - Desktop */}
             <div className="hidden md:flex items-center gap-2">
+             <a href="https://www.youtube.com/@IYIxRECTOR" target="_blank" rel="noopener noreferrer"> 
               <Button 
                 variant="ghost" 
                 size="icon" 
@@ -203,6 +204,8 @@ export default function App() {
               >
                 <Youtube className="w-4 h-4" />
               </Button>
+             </a>
+             <a href="https://github.com/mushu0729" target="_blank" rel="noopener noreferrer">
               <Button 
                 variant="ghost" 
                 size="icon" 
@@ -210,6 +213,8 @@ export default function App() {
               >
                 <Github className="w-4 h-4" />
               </Button>
+             </a>
+              <a href="https://www.linkedin.com/in/mushu0729" target="_blank" rel="noopener noreferrer">
               <Button 
                 variant="ghost" 
                 size="icon" 
@@ -217,6 +222,7 @@ export default function App() {
               >
                 <Linkedin className="w-4 h-4" />
               </Button>
+             </a>
             </div>
 
             {/* Mobile Menu Button */}
@@ -260,6 +266,7 @@ export default function App() {
             
             {/* Mobile Social Icons */}
             <div className="flex items-center gap-2 pt-4 border-t border-cyan-400/20">
+              <a href="https://www.youtube.com/@IYIxRECTOR" target="_blank" rel="noopener noreferrer">
               <Button 
                 variant="ghost" 
                 size="icon" 
@@ -267,6 +274,8 @@ export default function App() {
               >
                 <Youtube className="w-5 h-5" />
               </Button>
+              </a>
+              <a href="https://github.com/mushu0729" target="_blank" rel="noopener noreferrer">
               <Button 
                 variant="ghost" 
                 size="icon" 
@@ -274,6 +283,8 @@ export default function App() {
               >
                 <Github className="w-5 h-5" />
               </Button>
+              </a>
+              <a href="https://www.linkedin.com/in/mushu0729" target="_blank" rel="noopener noreferrer">
               <Button 
                 variant="ghost" 
                 size="icon" 
@@ -281,6 +292,7 @@ export default function App() {
               >
                 <Linkedin className="w-5 h-5" />
               </Button>
+              </a>
             </div>
           </div>
         </motion.div>
@@ -406,18 +418,26 @@ if (gaming) {
                   coordinating community events, or creating resources to help the next generation of content creators succeed.
                 </p>
                 <div className="flex gap-4">
+                 <a href="https://www.instagram.com/_md_mushahedulla_0729_/" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" size="icon" className="border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black">
                     <Instagram className="w-5 h-5" />
                   </Button>
+                 </a>
+                 <a href="https://www.youtube.com/@IYIxRECTOR" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" size="icon" className="border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black">
                     <Youtube className="w-5 h-5" />
                   </Button>
+                 </a>
+                 <a href="https://twitter.com/md_mushahedulla" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" size="icon" className="border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black">
                     <Twitter className="w-5 h-5" />
                   </Button>
+                 </a>
+                 <a href="https://www.linkedin.com/in/mushu0729" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" size="icon" className="border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black">
                     <Linkedin className="w-5 h-5" />
                   </Button>
+                 </a>
                 </div>
               </div>
               <div className="grid grid-cols-3 gap-6">
