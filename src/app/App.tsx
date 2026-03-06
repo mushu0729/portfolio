@@ -5,6 +5,7 @@ import { Button } from './components/ui/button';
 import { Card } from './components/ui/card';
 import { Badge } from './components/ui/badge';
 import pic from "./pic.jpeg";
+import { Code, Cpu, Gamepad2 } from "lucide-react";
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -409,14 +410,30 @@ if (gaming) {
             <div className="grid md:grid-cols-2 gap-12">
               <div>
                 <p className="text-lg text-gray-300 mb-6">
-                  I'm a passionate gaming enthusiast and content strategist who helps streamers build their brands 
-                  and grow engaged communities. With years of experience in content creation, community management, 
-                  and gaming culture, I bridge the gap between creators and their audiences.
+                    I'm a passionate Java and Web Developer who enjoys building real-world 
+                    software systems and interactive web applications. I love transforming 
+                    ideas into scalable and user-friendly digital solutions using modern 
+                    technologies.
                 </p>
                 <p className="text-lg text-gray-300 mb-6">
-                  When I'm not helping streamers optimize their content, you'll find me gaming, analyzing meta strategies, 
-                  coordinating community events, or creating resources to help the next generation of content creators succeed.
+                    Currently, I'm working on my main project <strong>Vidya Vahini</strong>, 
+                    an educational live streaming platform designed to make learning more 
+                    interactive and accessible for students and educators. The platform 
+                    integrates live streaming, video content, AI-generated quizzes, and 
+                    a gamified learning experience.
                 </p>
+                <p className="text-lg text-gray-300">
+                  My technical interests include backend development, database systems, 
+                  and building scalable platforms using technologies like Java, Flask, MySQL, 
+                  JavaScript, and Bootstrap.
+                </p>
+                <p className="text-lg text-gray-300 mt-6">
+                  Apart from development, I'm also passionate about gaming and online communities. 
+                  I actively explore gaming culture, streaming platforms, and community engagement. 
+                  I enjoy connecting with gamers, analyzing strategies, and understanding how 
+                  digital communities grow and interact in the modern gaming ecosystem.
+                </p>
+                <br />
                 <div className="flex gap-4">
                  <a href="https://www.instagram.com/_md_mushahedulla_0729_/" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline" size="icon" className="border-cyan-400 text-cyan-400 hover:bg-cyan-400 hover:text-black">
@@ -441,22 +458,37 @@ if (gaming) {
                 </div>
               </div>
               <div className="grid grid-cols-3 gap-6">
-                <Card className="bg-gradient-to-br from-cyan-500/10 to-transparent border-cyan-500/30 p-6 text-center hover:border-cyan-400 hover:shadow-[0_0_15px_rgba(34,211,238,0.4)] transition-all duration-300">
-                  <Users className="w-12 h-12 mx-auto mb-4 text-cyan-400" />
-                  <div className="text-3xl font-bold text-cyan-400 mb-2">15+</div>
-                  <div className="text-sm text-gray-400">Communities</div>
-                </Card>
-                <Card className="bg-gradient-to-br from-cyan-500/10 to-transparent border-cyan-500/30 p-6 text-center hover:border-cyan-400 hover:shadow-[0_0_15px_rgba(34,211,238,0.4)] transition-all duration-300">
-                  <Video className="w-12 h-12 mx-auto mb-4 text-cyan-400" />
-                  <div className="text-3xl font-bold text-cyan-400 mb-2">10+</div>
-                  <div className="text-sm text-gray-400">Streamers</div>
-                </Card>
-                <Card className="bg-gradient-to-br from-cyan-500/10 to-transparent border-cyan-500/30 p-6 text-center hover:border-cyan-400 hover:shadow-[0_0_15px_rgba(34,211,238,0.4)] transition-all duration-300">
-                  <Trophy className="w-12 h-12 mx-auto mb-4 text-cyan-400" />
-                  <div className="text-3xl font-bold text-cyan-400 mb-2">5+</div>
-                  <div className="text-sm text-gray-400">Years</div>
-                </Card>
-              </div>
+                  <Card className="bg-gradient-to-br from-cyan-500/10 to-transparent border-cyan-500/30 p-6 text-center hover:border-cyan-400 hover:shadow-[0_0_15px_rgba(34,211,238,0.4)] transition-all duration-300">
+                    <Code className="w-12 h-12 mx-auto mb-4 text-cyan-400" />
+                    <div className="text-3xl font-bold text-cyan-400 mb-2">5+</div>
+                    <div className="text-sm text-gray-400">Projects Built</div>
+                  </Card>
+                  <Card className="bg-gradient-to-br from-cyan-500/10 to-transparent border-cyan-500/30 p-6 text-center hover:border-cyan-400 hover:shadow-[0_0_15px_rgba(34,211,238,0.4)] transition-all duration-300">
+                    <Cpu className="w-12 h-12 mx-auto mb-4 text-cyan-400" />
+                    <div className="text-3xl font-bold text-cyan-400 mb-2">10+</div>
+                    <div className="text-sm text-gray-400">Technologies Used</div>
+                  </Card>
+                  <Card className="bg-gradient-to-br from-cyan-500/10 to-transparent border-cyan-500/30 p-6 text-center hover:border-cyan-400 hover:shadow-[0_0_15px_rgba(34,211,238,0.4)] transition-all duration-300">
+                    <Trophy className="w-12 h-12 mx-auto mb-4 text-cyan-400" />
+                    <div className="text-3xl font-bold text-cyan-400 mb-2">3+</div>
+                    <div className="text-sm text-gray-400">Major Projects</div>
+                  </Card>
+                  <Card className="bg-gradient-to-br from-cyan-500/10 to-transparent border-cyan-500/30 p-6 text-center hover:border-cyan-400 hover:shadow-[0_0_15px_rgba(34,211,238,0.4)] transition-all duration-300">
+                    <Users className="w-12 h-12 mx-auto mb-4 text-cyan-400" />
+                    <div className="text-3xl font-bold text-cyan-400 mb-2">15+</div>
+                    <div className="text-sm text-gray-400">Communities</div>
+                  </Card>
+                  <Card className="bg-gradient-to-br from-cyan-500/10 to-transparent border-cyan-500/30 p-6 text-center hover:border-cyan-400 hover:shadow-[0_0_15px_rgba(34,211,238,0.4)] transition-all duration-300">
+                    <Video className="w-12 h-12 mx-auto mb-4 text-cyan-400" />
+                    <div className="text-3xl font-bold text-cyan-400 mb-2">10+</div>
+                    <div className="text-sm text-gray-400">Streamers</div>
+                  </Card>
+                  <Card className="bg-gradient-to-br from-cyan-500/10 to-transparent border-cyan-500/30 p-6 text-center hover:border-cyan-400 hover:shadow-[0_0_15px_rgba(34,211,238,0.4)] transition-all duration-300">
+                    <Gamepad2 className="w-12 h-12 mx-auto mb-4 text-cyan-400" />
+                    <div className="text-3xl font-bold text-cyan-400 mb-2">5+</div>
+                    <div className="text-sm text-gray-400">Years Gaming</div>
+                  </Card>
+                </div>
             </div>
           </motion.div>
         </div>
