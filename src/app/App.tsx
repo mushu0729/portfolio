@@ -4,6 +4,7 @@ import { Users, Video, Trophy, BookOpen, Award, Heart, FileText, Github, Linkedi
 import { Button } from './components/ui/button';
 import { Card } from './components/ui/card';
 import { Badge } from './components/ui/badge';
+import pic from "./pic.jpeg";
 
 export default function App() {
   const [activeSection, setActiveSection] = useState('home');
@@ -366,8 +367,8 @@ if (gaming) {
             className="mt-16 max-w-2xl mx-auto"
           >
             <img 
-              src="src\app\pic.jpeg" 
-              alt="3D Abstract" 
+              src={pic} 
+              alt="Picture" 
               className="w-full h-auto" 
             />
           </motion.div>
